@@ -20,8 +20,8 @@ public static void Equation(float a, float b, float c){
 		System.out.println("Phuong trinh co nghiem duy nhat x1 = " + x1);
 	} else if(delta > 0){
 		x1 = (float)  ((-b + Math.sqrt(delta))/(2*a));
-		x2 = (float)  ((-b + Math.sqrt(delta))/(2*a));
-		System.out.println("Phuong trinh co 2 nghiem x1 =" + x1 + "va x2 = " + x2);
+		x2 = (float)  ((-b - Math.sqrt(delta))/(2*a));
+		System.out.println("Phuong trinh co 2 nghiem x1 =" + x1 + " va x2 = " + x2);
 	} else {
 		System.out.println("Vo nghiem");
 	}
